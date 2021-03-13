@@ -13,13 +13,13 @@ export default function Home() {
         <meta property="og:url" content="https://bloomcollective.com/" />
         <meta property="og:title" content="Business-driven content workflows" />
         <meta property="og:description" content="Every business needs to be a content producer. Let Bloom Collective show you how to do it right." />
-        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:image" content="https://bloomcollective.com/og-image.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://bloomcollective.com/" />
         <meta property="twitter:title" content="Business-driven content workflows" />
         <meta property="twitter:description" content="Every business needs to be a content producer. Let Bloom Collective show you how to do it right." />
-        <meta property="twitter:image" content="/og-image.png" />
+        <meta property="twitter:image" content="https://bloomcollective.com/og-image.png" />
       </Head>
       <header>
         <div className="wrapper">
