@@ -63,14 +63,14 @@ export default function Home() {
           <div className="row">
             <div className="col">
               <img src="/bloom_logo.svg" alt="Bloom Co" className="logo" />
-              <p>Business-driven contnet workflows</p>
+              <p>Business-driven content workflows</p>
               <p class="cities">SF - <span class="red">JKT</span> - UAE</p>
 
               <div className="office">
                 <h2>Office</h2>
                 <p>Bloom Collective Studio</p>
                 <p>Sahid Office Boutique Unit A, 4th Floor, Jend.</p>
-                <p>Sudirman ROad 86, RT.10/RW.11, Karet Tengsin,</p>
+                <p>Sudirman Road 86, RT.10/RW.11, Karet Tengsin,</p>
                 <p>Tanah Abang, Central Jakarta, Indonesia</p>
               </div>
 
