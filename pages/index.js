@@ -22,7 +22,7 @@ export default function Home() {
                 <div className="title">
                   <h1><span class="red line">Business-driven</span> <br/>content workflow</h1>
                 </div>
-                <p>Every business needs to be a content producer. <br/>Let Bloom Collective show you how to do it right.</p>
+                <p>Every business needs to be a content producer. Let Bloom Collective show you how to do it right.</p>
                 <a href="mailto:matt@bloomcollective.com?subject=Inquiry" class="btn">Contact us</a>
               </div>
             </div>
