@@ -4,6 +4,23 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
+      <Heade>
+      <title>Business-driven content workflows</title>
+      <meta name="title" content="Business-driven content workflows" />
+      <meta name="description" content="Every business needs to be a content producer. Let Bloom Collective show you how to do it right." />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://bloomcollective.com/" />
+      <meta property="og:title" content="Business-driven content workflows" />
+      <meta property="og:description" content="Every business needs to be a content producer. Let Bloom Collective show you how to do it right." />
+      <meta property="og:image" content="/og-image.png" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://bloomcollective.com/" />
+      <meta property="twitter:title" content="Business-driven content workflows" />
+      <meta property="twitter:description" content="Every business needs to be a content producer. Let Bloom Collective show you how to do it right." />
+      <meta property="twitter:image" content="/og-image.png" />
+      </Heade>
       <header>
         <div className="wrapper">
           <div className="row">
@@ -38,7 +55,7 @@ export default function Home() {
           <div className="row">
             <div className="col">
               <img src="/bloom_logo.svg" alt="Bloom Co" className="logo" />
-              <p>Business-driven contnet workflow</p>
+              <p>Business-driven contnet workflows</p>
               <p class="cities">SF - <span class="red">JKT</span> - UAE</p>
 
               <div className="office">
