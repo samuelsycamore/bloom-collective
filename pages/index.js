@@ -2,7 +2,6 @@ import Head from "next/head";
 import Hero from "../components/old/Hero";
 import HeaderNav from "../components/old/HeaderNav";
 import Footer from "../components/old/Footer";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (

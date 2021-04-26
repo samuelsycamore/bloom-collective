@@ -1,3 +1,5 @@
+
+
 export default function HeroNew() {
   return (
     <div className="block hero-new">
