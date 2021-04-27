@@ -36,7 +36,7 @@ function Nav() {
       <nav className="">
         {/* wide nav - row */}
         <div className="hidden sm:block">
-          <ul className="flex justify-between gap-8">
+          <ul className="flex justify-between gap-6">
             <NavItem location="/" label="Home" />
             <NavItem location="/about" label="About" />
             <NavItem location="/services" label="Services" />
