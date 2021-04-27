@@ -9,12 +9,12 @@ import Nav from "../components/Nav";
 
 export default function landing() {
   return (
-    <>
+    <body className="text-white">
       <Nav />
       <Content />
       <Footer />
       <Testimonials />
      <Form />
-    </>
+    </body>
   );
 }

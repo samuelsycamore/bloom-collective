@@ -22,7 +22,7 @@ function Nav() {
     <div
       className="absolute top-0 left-0 w-full z-10 
     bg-black bg-opacity-70       
-    text-white
+      text-inherit
       px-8 py-2
       flex gap-2 justify-between items-center"
     >
