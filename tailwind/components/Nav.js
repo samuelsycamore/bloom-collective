@@ -77,7 +77,7 @@ function Nav() {
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                className="w-7 h-7 svg-inline--fa fa-bars fa-w-14 fa-3x"
+                className="w-8 h-8 svg-inline--fa fa-bars fa-w-14 fa-3x"
               >
                 <path
                   fill="currentColor"
