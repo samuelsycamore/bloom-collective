@@ -6,8 +6,8 @@ export default function Footer() {
           <div className="col">
             <img src="/bloom_logo.svg" alt="Bloom Co" className="logo" />
             <p>Business-driven content workflows</p>
-            <p class="cities">
-              SF - <span class="red">JKT</span> - UAE
+            <p className="cities">
+              SF - <span className="red">JKT</span> - UAE
             </p>
 
             <div className="office">
@@ -18,7 +18,7 @@ export default function Footer() {
               <p>Tanah Abang, Central Jakarta, Indonesia</p>
             </div>
 
-            <p class="copyright">
+            <p className="copyright">
               © Bloom Collective Studio 2021. All rights reserved.
             </p>
           </div>

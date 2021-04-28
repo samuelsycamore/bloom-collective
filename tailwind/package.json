@@ -16,5 +16,8 @@
     "tailwindcss": "^2.1.2"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss-pseudo-elements": "^2.0.0"
+  }
 }

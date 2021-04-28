@@ -6,7 +6,8 @@ import Image from "next/image";
 function NavItem({ location, label }) {
   return (
     <li
-      className="block px-2 py-1 hover:bg-yellow-400 hover:text-black
+      className="block px-2 py-1 
+  hover:bg-yellow-400 hover:text-black
     transition duration-300 ease-in-out
     transform hover:-translate-y-1 hover:scale-105"
     >
@@ -20,8 +21,7 @@ function Nav() {
   useOnClickOutside(mobileRef, () => setOpen(false));
   return (
     <div
-      className="absolute top-0 left-0 w-full z-10 
-    bg-black bg-opacity-70       
+      className="absolute top-0 left-0 w-full z-50      
       text-inherit
       px-8 py-2
       flex gap-2 justify-between items-center"
@@ -36,7 +36,7 @@ function Nav() {
       <nav className="">
         {/* wide nav - row */}
         <div className="hidden sm:block">
-          <ul className="flex justify-between gap-6">
+          <ul className="flex justify-between gap-4">
             <NavItem location="/" label="Home" />
             <NavItem location="/about" label="About" />
             <NavItem location="/services" label="Services" />
@@ -50,7 +50,7 @@ function Nav() {
           {isOpen ? (
             <ul
               ref={mobileRef}
-              className="absolute top-20 left-0 w-full
+              className="absolute top-20 left-0 z-50 w-full
                   flex flex-col
                   p-5
                   bg-black 
