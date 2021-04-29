@@ -2,10 +2,10 @@ import _wrapper from "./layout/_wrapper";
 
 export default function Clients() {
   return (
-    <div className="block Clients">
+    <section className="block clients">
       <_wrapper>
         <div
-          className="row py-8
+          className="row
         flex flex-col place-items-center gap-4
         sm:flex-row sm:justify-between
         "
@@ -30,6 +30,6 @@ export default function Clients() {
           </div>
         </div>
       </_wrapper>
-    </div>
+    </section>
   );
 }

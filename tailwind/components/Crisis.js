@@ -1,14 +1,16 @@
 import _wrapper from "./layout/_wrapper";
+import _subheader from "./layout/_subheader";
+import _paragraph from "./layout/_paragraph";
 
-export default function ContentOne() {
+export default function Crisis() {
   return (
     <section className="block content_one">
       <_wrapper>
         <div className="row flex flex-col place-items-center
         md:flex-row">
           <div className="col max-w-xl p-10">
-            <h2 className="text-3xl font-bold">Content During Crisis</h2>
-            <p className="py-5">Majid Al Futtaim is the leading shopping mall, communities, retail and leisure pioneer across the Middle East, Africa and Asia. Find out how Bloom Collective mobilised to help them communicate during a time of crisis.</p>
+            <_subheader>Content During Crisis</_subheader>
+            <_paragraph>Majid Al Futtaim is the leading shopping mall, communities, retail and leisure pioneer across the Middle East, Africa and Asia. Find out how Bloom Collective mobilised to help them communicate during a time of crisis.</_paragraph>
             <button
                 className="px-5 py-3 w-1/3
                 text-yellow-400

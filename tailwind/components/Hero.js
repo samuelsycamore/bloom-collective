@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="block hero">
+    <section className="block hero">
       <div
         className="row flex justify-center items-center
         sm:justify-start"
@@ -20,7 +20,7 @@ export default function Hero() {
               >
                 <span className="line-yellow text-yellow-400 inline-block">
                   Business-driven
-                </span>{" "}
+                </span>
                 <br />
                 content workflows
               </h1>
@@ -64,6 +64,6 @@ export default function Hero() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
