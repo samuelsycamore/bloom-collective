@@ -15,8 +15,7 @@ export default function Hero() {
             <div className="title">
               <h1
                 className="text-3xl font-semibold
-                sm:text-5xl
-                "
+                sm:text-5xl"
               >
                 <span className="line-yellow text-yellow-300 inline-block">
                   Business-driven

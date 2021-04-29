@@ -16,7 +16,6 @@ export default function landing() {
       <Science />
       <Testimonials />
       <Form />
-      <Footer />
     </Layout>
   );
 }
