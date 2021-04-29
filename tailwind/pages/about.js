@@ -1,5 +1,5 @@
 import Clients from "../components/Clients";
-import Content from "../components/Content";
+import ContentOne from "../components/ContentOne";
 import Footer from "../components/Footer";
 import Form from "../components/Form";
 import Testimonials from "../components/Testimonials";
@@ -11,7 +11,7 @@ export default function landing() {
     <Layout>
       <Nav />
       <Clients />
-      <Content />
+      <ContentOne />
       <Footer />
       <Testimonials />
      <Form />
