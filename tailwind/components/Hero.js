@@ -10,7 +10,7 @@ export default function Hero() {
             className="col absolute z-10 max-w-md
            text-white text-center
            m-5
-           sm:text-left"
+           sm:text-left sm:m-10"
           >
             <div className="content p-5">
               <div className="title">
@@ -44,7 +44,9 @@ export default function Hero() {
                 >
                   Learn more
                 </button>
-                <button className="px-5 py-3 w-full 
+                <button 
+                  className="px-5 py-3 w-full
+                text-yellow-400
                 border-2 border-yellow-400
                 hover:bg-yellow-400 hover:text-black
                 transition duration-300 ease-in-out

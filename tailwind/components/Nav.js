@@ -23,20 +23,22 @@ function Nav() {
     <div
       className="absolute top-0 left-0 w-full z-50      
       text-inherit
-      px-8 py-2
+      px-16 py-2
       flex gap-2 justify-between items-center"
     >
-      <Image
-        width="100%"
-        height="100%"
-        src="/bloom_logo_white.svg"
-        alt="Bloom Co"
-        className="logo"
-      />
+      <div className="">
+        <Image
+          width="100%"
+          height="100%"
+          src="/bloom_logo_white.svg"
+          alt="Bloom Co"
+          className="logo"
+        />
+      </div>
       <nav className="">
         {/* wide nav - row */}
-        <div className="hidden sm:block">
-          <ul className="flex justify-between gap-4">
+        <div className="hidden md:block">
+          <ul className="flex justify-between gap-6">
             <NavItem location="/" label="Home" />
             <NavItem location="/about" label="About" />
             <NavItem location="/services" label="Services" />
@@ -46,7 +48,7 @@ function Nav() {
         </div>
 
         {/* mobile nav - column */}
-        <div className="sm:hidden">
+        <div className="md:hidden">
           {isOpen ? (
             <ul
               ref={mobileRef}
@@ -54,7 +56,7 @@ function Nav() {
                   flex flex-col
                   p-5
                   bg-black 
-                  text-center"
+                  text-white text-center text-3xl"
               onClick={() => setOpen(false)}
             >
               <NavItem location="/" label="Home" />
