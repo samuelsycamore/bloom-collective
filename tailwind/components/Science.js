@@ -1,5 +1,6 @@
 import _wrapper from "./layout/_wrapper";
-import _subheader from "./layout/_subheader";
+import _headline from "./layout/_headline";
+import _paragraph from "./layout/_paragraph";
 
 export default function ContentTwo() {
   return (
@@ -12,19 +13,19 @@ export default function ContentTwo() {
           <div className="col hidden md:block sm:w-1/2">
             <img className="w-96" src="../phone.svg" />
           </div>
-          <div className="col max-w-xl p-10">
-            <_subheader>The Science of Social</_subheader>
-            <p className="py-5">
+          <div className="col max-w-xl px-5 py-10">
+            <_headline>The Science of Social</_headline>
+            <_paragraph>
               The Breakthrough Prizes are awarded each year to groundbreaking
               ideas in the areas of Physics, Mathematics and Life Sciences. See
               how Bloom Collective designed a custom content workflow to achieve
               their communications goals.
-            </p>
+            </_paragraph>
             <button
-              className="px-5 py-3 w-1/3
+              className="px-5 py-3 w-full sm:w-1/3
                 text-gray-400
                 border-2 border-gray-400
-                hover:bg-gray-400 hover:text-black
+                hover:bg-yellow-300 hover:border-yellow-300 hover:text-black
                 transition duration-300 ease-in-out
                 transform hover:-translate-y-1 hover:scale-105"
             >

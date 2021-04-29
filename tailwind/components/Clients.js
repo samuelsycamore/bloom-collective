@@ -1,4 +1,5 @@
 import _wrapper from "./layout/_wrapper";
+import _subheadline from "./layout/_subheadline";
 
 export default function Clients() {
   return (
@@ -11,13 +12,7 @@ export default function Clients() {
         "
         >
           <div className="col">
-            <h3
-              className="title 
-            text-2xl font-bold
-            sm:text-3xl"
-            >
-              Clients who trust us.
-            </h3>
+            <_subheadline>Clients who trust us.</_subheadline>
           </div>
           <div className="col">
             <span className="block">LOGO</span>

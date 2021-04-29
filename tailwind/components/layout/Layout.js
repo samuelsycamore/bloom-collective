@@ -27,7 +27,7 @@ export default function Layout({ children, home }) {
           <Nav />
         </header>
       )}
-      <body className="text-black">
+      <body className="text-black text-lg">
         {children}
         <Footer />
       </body>

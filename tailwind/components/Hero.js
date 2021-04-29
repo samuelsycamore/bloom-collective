@@ -18,7 +18,7 @@ export default function Hero() {
                 sm:text-5xl
                 "
               >
-                <span className="line-yellow text-yellow-400 inline-block">
+                <span className="line-yellow text-yellow-300 inline-block">
                   Business-driven
                 </span>
                 <br />
@@ -35,9 +35,9 @@ export default function Hero() {
             >
               <button
                 className="px-5 py-3 w-full 
-              bg-yellow-400
+              bg-yellow-300
               text-black
-              border-2 border-yellow-400
+              border-2 border-yellow-300
               transition duration-300 ease-in-out
               transform hover:-translate-y-1 hover:scale-105"
               >
@@ -45,9 +45,9 @@ export default function Hero() {
               </button>
               <button
                 className="px-5 py-3 w-full
-                text-yellow-400
-                border-2 border-yellow-400
-                hover:bg-yellow-400 hover:text-black
+                text-yellow-300
+                border-2 border-yellow-300
+                hover:bg-yellow-300 hover:text-black
                 transition duration-300 ease-in-out
                 transform hover:-translate-y-1 hover:scale-105"
               >

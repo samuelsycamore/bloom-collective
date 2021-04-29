@@ -7,7 +7,7 @@ function NavItem({ location, label }) {
   return (
     <li
       className="block px-2 py-1 
-  hover:bg-yellow-400 hover:text-black
+  hover:bg-yellow-300 hover:text-black
     transition duration-300 ease-in-out
     transform hover:-translate-y-1 hover:scale-105"
     >
@@ -69,7 +69,7 @@ function Nav() {
             <button
               onClick={() => setOpen(true)}
               className="transition duration-400 ease-in
-              transform hover:-translate-y-1 hover:text-yellow-400"
+              transform hover:-translate-y-1 hover:text-yellow-300"
             >
               <svg
                 aria-hidden="true"
