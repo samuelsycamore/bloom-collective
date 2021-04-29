@@ -7,7 +7,7 @@ import Hero from "../components/Hero";
 import Testimonials from "../components/Testimonials";
 import Layout from "../components/layout/Layout";
 
-export default function landing() {
+export default function index() {
   return (
     <Layout home>
       <Hero />
