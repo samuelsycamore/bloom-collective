@@ -1,5 +1,6 @@
 import Clients from "../components/Clients";
-import Content from "../components/Content";
+import ContentOne from "../components/ContentOne";
+import ContentTwo from "../components/ContentTwo";
 import Footer from "../components/Footer";
 import Form from "../components/Form";
 import Hero from "../components/Hero";
@@ -12,7 +13,8 @@ export default function landing() {
     <Layout home>
       <Hero />
       <Clients />
-      <Content />
+      <ContentOne />
+      <ContentTwo />
       <Testimonials />
       <Form />
       <Footer />
