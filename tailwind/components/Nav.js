@@ -15,7 +15,7 @@ function NavItem({ location, label }) {
     </li>
   );
 }
-function Nav() {
+function Nav({ textColor, logoColor }) {
   const [isOpen, setOpen] = useState(false);
   const mobileRef = useRef();
   useOnClickOutside(mobileRef, () => setOpen(false));
@@ -30,12 +30,12 @@ function Nav() {
         <Image
           width="100%"
           height="100%"
-          src="/bloom_logo_white.svg"
+          src={logoColor}
           alt="Bloom Co"
           className="logo"
         />
       </div>
-      <nav className="">
+      <nav className={textColor}>
         {/* wide nav - row */}
         <div className="hidden md:block">
           <ul className="flex justify-between gap-6">

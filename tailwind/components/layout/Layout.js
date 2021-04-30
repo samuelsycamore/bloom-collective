@@ -19,13 +19,9 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
       </Head>
       {home ? (
-        <header className="text-white">
-          <Nav />
-        </header>
+        <Nav textColor="text-white" logoColor="/bloom_logo_white.svg" />
       ) : (
-        <header className="text-black">
-          <Nav />
-        </header>
+        <Nav textColor="text-black" logoColor="/bloom_logo_black.svg" />
       )}
       <body className="text-black text-lg">
         {children}
