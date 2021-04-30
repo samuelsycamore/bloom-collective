@@ -41,7 +41,7 @@ export default function Footer() {
             <input type="text" name="email" className="w-full bg-black border border-gray-300 px-4 py-2 my-2" placeholder="Your email..." />
           </div>
         </div>
-        <div classname="row">
+        <div className="row">
           <div className="col py-10 mt-10">
             <p>
               © Bloom Collective Studio 2021. All rights reserved.{" "}

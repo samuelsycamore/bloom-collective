@@ -29,7 +29,7 @@ export default function Hero() {
               Collective show you how to do it right.
             </p>
             <div
-              class="flex flex-col gap-5
+              className="flex flex-col gap-5
               sm:flex-row"
             >
               <button
