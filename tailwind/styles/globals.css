@@ -69,7 +69,7 @@ body {
   background-image: url("/underline-yellow.svg");
   background-repeat: no-repeat;
   background-position: top center;
-
+  margin-bottom: -15px;
 }
 
 .block.content_one {
