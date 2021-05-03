@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white">
       <_wrapper>
-        <div className="row m-10
+        <div className="row my-10
         grid gap-6 
         sm:grid-cols-2
         lg:grid-cols-4">

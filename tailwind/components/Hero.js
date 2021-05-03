@@ -1,20 +1,15 @@
+import _wrapper from "./layout/_wrapper";
+import _subheadline from "./layout/_subheadline";
+
 export default function Hero() {
   return (
-    <section className="block hero">
-      <div
-        className="row flex justify-center items-center
-        sm:justify-start"
-      >
-        <div
-          className="col absolute z-10 max-w-md
-           text-white text-center
-           m-5
-           sm:text-left sm:m-10"
-        >
-          <div className="content p-5">
+    <section className="block hero relative">
+      <_wrapper>
+        <div className="row flex items-end h-calc pt-32 pb-10">
+          <div className="col content relative z-10 w-full h-full max-w-md text-white">
             <div className="title">
               <h1
-                className="text-3xl font-semibold
+                className="text-4xl font-semibold
                 sm:text-5xl"
               >
                 <span className="line-yellow text-yellow-300 inline-block">
@@ -33,7 +28,7 @@ export default function Hero() {
               sm:flex-row"
             >
               <button
-                className="px-5 py-3 w-full 
+                className="px-5 py-3 w-full max-w-xxs
               bg-yellow-300
               text-black
               border-2 border-yellow-300
@@ -43,7 +38,7 @@ export default function Hero() {
                 Learn more
               </button>
               <button
-                className="px-5 py-3 w-full
+                className="px-5 py-3 w-full max-w-xxs
                 text-yellow-300
                 border-2 border-yellow-300
                 hover:bg-yellow-300 hover:text-black
@@ -54,15 +49,16 @@ export default function Hero() {
               </button>
             </div>
           </div>
+          <div className="col absolute top-0 left-0 w-full h-full">
+            <img
+              className="object-cover object-center w-full h-full"
+              src="https://source.unsplash.com/random"
+              alt=""
+            />
+          </div>
         </div>
-        <div className="col w-full h-screen">
-          <img
-            className="object-cover w-full h-full"
-            src="https://source.unsplash.com/random"
-            alt=""
-          />
-        </div>
-      </div>
+       
+      </_wrapper>
     </section>
   );
 }

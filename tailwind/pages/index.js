@@ -1,7 +1,6 @@
 import Clients from "../components/Clients";
 import Crisis from "../components/Crisis";
 import Science from "../components/Science";
-import Footer from "../components/Footer";
 import Form from "../components/Form";
 import Hero from "../components/Hero";
 import Testimonials from "../components/Testimonials";
@@ -15,7 +14,7 @@ export default function index() {
       <Crisis />
       <Science />
       <Testimonials />
-      <Form />
+      <Form mainPage />
     </Layout>
   );
 }

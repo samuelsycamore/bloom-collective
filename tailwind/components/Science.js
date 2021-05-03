@@ -2,18 +2,15 @@ import _wrapper from "./layout/_wrapper";
 import _headline from "./layout/_headline";
 import _paragraph from "./layout/_paragraph";
 
-export default function ContentTwo() {
+export default function Science() {
   return (
     <section className="block content_two">
       <_wrapper>
-        <div
-          className="row flex flex-col place-items-center
-        md:flex-row"
-        >
-          <div className="col hidden md:block sm:w-1/2">
+        <div className="row flex flex-wrap justify-center items-center">
+          <div className="col">
             <img className="w-96" src="../phone.svg" />
           </div>
-          <div className="col max-w-xl px-5 py-10">
+          <div className="col max-w-xl py-10">
             <_headline>The Science of Social</_headline>
             <_paragraph>
               The Breakthrough Prizes are awarded each year to groundbreaking
@@ -22,7 +19,7 @@ export default function ContentTwo() {
               their communications goals.
             </_paragraph>
             <button
-              className="px-5 py-3 w-full sm:w-1/3
+              className="px-5 py-3 w-full max-w-xxs
                 text-gray-400
                 border-2 border-gray-400
                 hover:bg-yellow-300 hover:border-yellow-300 hover:text-black

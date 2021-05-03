@@ -16,6 +16,19 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.h-calc {
+  height: calc(100vh - 300px);
+}
+
+.max-w-xxs {
+  max-width: 220px;
+}
+
+.max-w-1200 {
+  max-width: 1200px;
+}
+
+
 .text-gold {
   color: var(--gold);
 }

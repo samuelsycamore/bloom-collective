@@ -1,11 +1,13 @@
+import _wrapper from "./layout/_wrapper";
 import _paragraph from "./layout/_paragraph";
 import _pageTitle from "./layout/_pageTitle";
 
 export default function GoBig() {
   return (
-    <section className="goBig flex flex-col">
-      <div className="row max-w-xl mx-auto px-5 py-12">
-        <div className="col flex flex-col justify-end items-center h-96">
+    <section className="goBig relative h-screen">
+      <_wrapper>
+      <div className="row max-w-xl mx-auto pt-40 pb-10">
+        <div className="col flex flex-col justify-end items-center">
           <_pageTitle>
             <span className="line-yellow text-yellow-300 inline-block">
               Go Big,
@@ -20,14 +22,15 @@ export default function GoBig() {
           </p>
         </div>
       </div>
-      <div className="row w-full">
-        <div className="col">
+      <div className="row">
+      <div className="col absolute top-50 left-0 w-full h-full">
           <img
-            className="object-cover w-full max-h-96"
+            className="object-cover object-center w-full h-full max-h-96"
             src="https://source.unsplash.com/random"
           />
         </div>
       </div>
+      </_wrapper>
     </section>
   );
 }
