@@ -15,13 +15,13 @@ export default function Clients() {
             <_subheadline>Clients who trust us.</_subheadline>
           </div>
           <div className="col">
-            <span className="block">LOGO</span>
+          <img src="logo-breakthrough.svg" />
           </div>
           <div className="col">
-            <span className="block">LOGO</span>
+          <img src="logo-dbs.svg" />
           </div>
           <div className="col">
-            <span className="block">LOGO</span>
+            <img src="logo-majid.svg" />
           </div>
         </div>
       </_wrapper>

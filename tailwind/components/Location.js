@@ -26,7 +26,7 @@ export default function Blank() {
           <div className="col">
             <img
               src="https://source.unsplash.com/random"
-              className="w-full h-96 object-cover object-center"
+              className="w-full h-full object-cover object-center"
             />
           </div>
         </div>

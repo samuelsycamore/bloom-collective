@@ -5,8 +5,8 @@ export default function Hero() {
   return (
     <section className="block hero relative">
       <_wrapper>
-        <div className="row flex items-end h-calc pt-32 pb-10">
-          <div className="col content relative z-10 w-full h-full max-w-md text-white">
+        <div className="row flex items-center h-calc pt-32 pb-10">
+          <div className="col content relative z-10 w-full max-w-md text-white">
             <div className="title">
               <h1
                 className="text-4xl font-semibold
@@ -32,8 +32,7 @@ export default function Hero() {
               bg-yellow-300
               text-black
               border-2 border-yellow-300
-              transition duration-300 ease-in-out
-              transform hover:-translate-y-1 hover:scale-105"
+              transition duration-300 ease-in-out"
               >
                 Learn more
               </button>
@@ -42,8 +41,7 @@ export default function Hero() {
                 text-yellow-300
                 border-2 border-yellow-300
                 hover:bg-yellow-300 hover:text-black
-                transition duration-300 ease-in-out
-                transform hover:-translate-y-1 hover:scale-105"
+                transition duration-300 ease-in-out"
               >
                 Watch video
               </button>

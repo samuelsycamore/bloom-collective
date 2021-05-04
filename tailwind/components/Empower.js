@@ -34,14 +34,17 @@ export default function Empower() {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </_paragraph>
-            <div className="flex flex-col justify-center items-center gap-4
-            sm:justify-left sm:items-left">
+            <div
+              className="flex justify-left items-center gap-4 py-4"
+            >
               <img
                 src="https://source.unsplash.com/random"
                 className="rounded-full w-16 h-16"
               />
-              <h4 className="font-bold text-xl">Matthew Ooley</h4>
-              <h5>Founder at Bloom Collective</h5>
+              <div className="person-info">
+                <h4 className="font-bold text-xl">Matthew Ooley</h4>
+                <h5>Founder at Bloom Collective</h5>
+              </div>
             </div>
           </div>
         </div>

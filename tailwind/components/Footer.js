@@ -10,7 +10,9 @@ export default function Footer() {
         sm:grid-cols-2
         lg:grid-cols-4">
           <div className="col">
-            <img
+            <Image
+              height="60px"
+              width="160px"
               src="/bloom_logo_white.svg"
               alt="Bloom Co"
               className="my-2"
@@ -47,14 +49,14 @@ export default function Footer() {
               © Bloom Collective Studio 2021. All rights reserved.{" "}
               <a
                 href="#"
-                className="text-yellow-300 hover:underline hover:text-white"
+                className="text-yellow-300 hover:text-white"
               >
                 Privacy policy
               </a>{" "}
               -{" "}
               <a
                 href="#"
-                className="text-yellow-300 hover:underline hover:text-white"
+                className="text-yellow-300 hover:text-white"
               >
                 Terms & conditions
               </a>

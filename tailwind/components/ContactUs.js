@@ -9,9 +9,9 @@ export default function ContactUs() {
   return (
     <section className="block contact">
       <_wrapper>
-        <div className="row pt-32 flex flex-wrap gap-6">
-          <div className="col w-full max-w-lg">
-            <img src="https://source.unsplash.com/random" className="object-cover object-center h-96 w-full" />
+        <div className="row pt-32 flex flex-col md:flex-row gap-6">
+          <div className="col h-96 w-full md:max-w-xl">
+            <img src="https://source.unsplash.com/random" className="object-cover object-center h-full w-full" />
           </div>
           <div className="col">
             <Form />

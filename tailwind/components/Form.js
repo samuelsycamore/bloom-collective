@@ -85,8 +85,7 @@ export default function Form({ mainPage }) {
               bg-yellow-300
               text-black
               border-2 border-yellow-300
-              transition duration-300 ease-in-out
-              transform hover:-translate-y-1 hover:scale-105"
+              transition duration-300 ease-in-out"
               >
                 Submit
               </button>

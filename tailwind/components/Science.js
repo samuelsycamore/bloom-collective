@@ -4,13 +4,14 @@ import _paragraph from "./layout/_paragraph";
 
 export default function Science() {
   return (
-    <section className="block content_two">
+    <section className="block">
       <_wrapper>
         <div className="row flex flex-wrap justify-center items-center">
           <div className="col">
             <img className="w-96" src="../phone.svg" />
           </div>
           <div className="col max-w-xl py-10">
+            <img src="logo-breakthrough.svg" className="py-5" />
             <_headline>The Science of Social</_headline>
             <_paragraph>
               The Breakthrough Prizes are awarded each year to groundbreaking
@@ -23,8 +24,7 @@ export default function Science() {
                 text-gray-400
                 border-2 border-gray-400
                 hover:bg-yellow-300 hover:border-yellow-300 hover:text-black
-                transition duration-300 ease-in-out
-                transform hover:-translate-y-1 hover:scale-105"
+                transition duration-300 ease-in-out"
             >
               Learn more
             </button>

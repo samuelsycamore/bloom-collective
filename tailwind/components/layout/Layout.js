@@ -17,7 +17,7 @@ export default function Layout({ children, lightNav }) {
       ) : (
         <Nav textColor="text-black" logoColor="/bloom_logo_black.svg" />
       )}
-      <body className="text-black text-lg">
+      <body className="text-black text-base">
         {children}
         <Footer />
       </body>

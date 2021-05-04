@@ -15,23 +15,29 @@ export default function Clients() {
         flex flex-col place-items-center gap-4
         sm:flex-row sm:justify-between"
         >
-          <div className="col">
-            <span className="block">LOGO</span>
+          <div className="col flex flex-col justify-center">
+            <img src="logo-marcom.svg" />
+            <span className="font-bold text-center">2020 MarCom Award </span>
           </div>
-          <div className="col">
-            <span className="block">LOGO</span>
+          <div className="col flex flex-col justify-center">
+            <img src="logo-marcom.svg" />
+            <span className="font-bold text-center">2020 MarCom Award </span>
           </div>
-          <div className="col">
-            <span className="block">LOGO</span>
+          <div className="col flex flex-col justify-center">
+            <img src="logo-summit.svg" />
+            <span className="font-bold text-center">2020 Summit Creative Award </span>
           </div>
-          <div className="col">
-            <span className="block">LOGO</span>
+          <div className="col flex flex-col justify-center">
+            <img src="logo-summit.svg" />
+            <span className="font-bold text-center">2020 Summit Creative Award </span>
           </div>
-          <div className="col">
-            <span className="block">LOGO</span>
+          <div className="col flex flex-col justify-center">
+            <img src="logo-marcom.svg" />
+            <span className="font-bold text-center">2020 MarCom Award </span>
           </div>
-          <div className="col">
-            <span className="block">LOGO</span>
+          <div className="col flex flex-col justify-center">
+            <img src="logo-marcom.svg" />
+            <span className="font-bold text-center">2020 MarCom Award </span>
           </div>
         </div>
       </_wrapper>

@@ -11,7 +11,7 @@ export default function GoBig() {
           <_pageTitle>
             <span className="line-yellow text-yellow-300 inline-block">
               Go Big,
-            </span>
+            </span>{" "}
             or Go Home.
           </_pageTitle>
           <p className="py-5 text-center">

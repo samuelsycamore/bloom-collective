@@ -17,7 +17,7 @@ body {
 }
 
 .h-calc {
-  height: calc(100vh - 300px);
+  height: calc(100vh - 220px);
 }
 
 .max-w-xxs {
@@ -26,6 +26,21 @@ body {
 
 .max-w-1200 {
   max-width: 1200px;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+}
+a:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 2px solid;
+  margin-top: 5px;
 }
 
 

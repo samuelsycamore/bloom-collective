@@ -7,10 +7,7 @@ import _wrapper from "./layout/_wrapper";
 function NavItem({ location, label }) {
   return (
     <li
-      className="block px-2 py-1 
-  hover:bg-yellow-300 hover:text-black
-    transition duration-300 ease-in-out
-    transform hover:-translate-y-1 hover:scale-105"
+      className="inline-block nav-item px-2 py-1 hover:text-yellow-300"
     >
       <Link href={location}>{label}</Link>
     </li>
@@ -31,7 +28,7 @@ function Nav({ textColor, logoColor }) {
           <div className="col">
             <Link href="/">
               <Image
-                width="100%"
+                width="160px"
                 height="100%"
                 src={logoColor}
                 alt="Bloom Co"
@@ -71,7 +68,7 @@ function Nav({ textColor, logoColor }) {
                 <button
                   onClick={() => setOpen(true)}
                   className="transition duration-400 ease-in
-              transform hover:-translate-y-1 hover:text-yellow-300"
+              transform hover:text-yellow-300"
                 >
                   <svg
                     aria-hidden="true"
