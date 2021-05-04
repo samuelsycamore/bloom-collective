@@ -31,17 +31,17 @@ export default function Form({ mainPage }) {
               touch. We’d love to hear from you.
             </_paragraph>
             <form name="contact" method="POST">
-              <label for="name" className="invisible">
+              <label htmlFor="name" className="invisible">
                 Name
               </label>
               <_field type="text" name="name" placeholder="Your full name" />
 
-              <label for="email" className="invisible">
+              <label htmlFor="email" className="invisible">
                 Email
               </label>
               <_field type="email" name="email" placeholder="Your email" />
 
-              <label for="phonee" className="invisible">
+              <label htmlFor="phonee" className="invisible">
                 Phone number
               </label>
               <_field
@@ -50,7 +50,7 @@ export default function Form({ mainPage }) {
                 placeholder="Your phone number"
               />
 
-              <label for="company" className="invisible">
+              <label htmlFor="company" className="invisible">
                 Company
               </label>
               <_field type="text" name="company" placeholder="Your company" />
@@ -72,7 +72,7 @@ export default function Form({ mainPage }) {
                 value3="More than 75k"
               />
               <_subheadline>How can we be of assistance?</_subheadline>
-              <label for="message" className="invisible">Message</label>
+              <label htmlFor="message" className="invisible">Message</label>
               <_field
                 type="text"
                 name="message"
