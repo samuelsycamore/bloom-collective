@@ -1,5 +1,5 @@
-import GoBig from "../components/GoBig";
-import Empower from "../components/Empower";
+import HeroB from "../components/HeroB";
+import ContentC from "../components/ContentC";
 import Awards from "../components/Awards";
 import Layout from "../components/layout/Layout";
 import Location from "../components/Location";
@@ -7,10 +7,43 @@ import Location from "../components/Location";
 export default function about() {
   return (
     <Layout>
-      <GoBig />
-      <Empower />
-      <Awards />
-      <Location />
+      <HeroB
+        headlineUnderline="Go Big,"
+        headlineNoUnderline="or Go Home."
+        text="Bloom Collective is a full-service digital consulting agency
+        specializing in content strategy, design and production. We have
+        experience working across Asia Pacic, North America and the Middle
+        East."
+        photo="https://source.unsplash.com/random"
+      />
+      <ContentC
+        headlineUnderline="Empowering"
+        headlineNoUnderline="businesses with content workflows."
+        paragraphOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+      enim ad minim veniam, quis nostrud exercitation ullamco laboris
+      nisi ut aliquip ex ea commodo consequat."
+        paragraphTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+      enim ad minim veniam, quis nostrud exercitation ullamco laboris
+      nisi ut aliquip ex ea commodo consequat."
+        paragraphThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+      enim ad minim veniam, quis nostrud exercitation ullamco laboris
+      nisi ut aliquip ex ea commodo consequat."
+        personName="Matthew Ooley"
+        personTitle="Founder at Bloom Collective"
+        personAvatar="https://source.unsplash.com/random"
+      />
+      <Awards headline="We are an award-winning agency." />
+      <Location
+        headlineNoUnderline="We are located in"
+        headlineUnderline="Jakarta, Indonesia."
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat."
+      />
     </Layout>
   );
 }

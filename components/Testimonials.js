@@ -3,7 +3,7 @@ import _headline from "./layout/_headline";
 
 import _paragraph from "./layout/_paragraph";
 
-export default function Testimonials() {
+export default function Testimonials( props ) {
   return (
     <section className="block testimonials">
       <_wrapper>
@@ -23,7 +23,7 @@ export default function Testimonials() {
             </svg>
           </div>
           <div className="col flex flex-col place-items-center gap-2 py-10">
-            <_headline>Some of our partners and clients.</_headline>
+            <_headline>{props.headline}</_headline>
             <p className="serif py-5 text-center sm:text-xl">
               “We've been working with Bloom for more than a year now. Our
               previous experience with outsource teams was not always positive.

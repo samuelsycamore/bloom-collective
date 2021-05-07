@@ -1,13 +1,13 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
 
-export default function Clients() {
+export default function Clients( props ) {
   return (
     <section className="block clients">
       <_wrapper>
         <div className="row text-center py-10">
           <div className="col">
-            <_subheadline>We are an award-winning agency.</_subheadline>
+            <_subheadline>{props.headline}</_subheadline>
           </div>
         </div>
         <div

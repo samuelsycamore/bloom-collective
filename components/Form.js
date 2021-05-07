@@ -5,7 +5,7 @@ import _paragraph from "./layout/_paragraph";
 import _field from "./layout/_field";
 import _dropdown from "./layout/_dropdown";
 
-export default function Form({ mainPage }) {
+export default function Form({ mainPage }, props) {
   return (
     <section className="block form">
       <_wrapper>
@@ -72,7 +72,7 @@ export default function Form({ mainPage }) {
                 value3="More than 75k"
               />
               <_subheadline>How can we be of assistance?</_subheadline>
-              <label htmlFor="message" className="invisible">Message</label>
+              <label htmlFor="message" className="absolute invisible">Message</label>
               <_field
                 type="text"
                 name="message"
@@ -85,6 +85,7 @@ export default function Form({ mainPage }) {
               bg-yellow-300
               text-black
               border-2 border-yellow-300
+              hover:bg-yellow-400
               transition duration-300 ease-in-out"
               >
                 Submit

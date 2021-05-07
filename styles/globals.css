@@ -17,7 +17,11 @@ body {
 }
 
 .h-calc {
-  height: calc(100vh - 220px);
+  height: calc(100vh - 150px);
+}
+
+.h-half {
+  height: 50vh;
 }
 
 .max-w-xxs {

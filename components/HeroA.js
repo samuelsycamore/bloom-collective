@@ -1,7 +1,7 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
 
-export default function Hero() {
+export default function Hero( props ) {
   return (
     <section className="block hero relative">
       <_wrapper>
@@ -13,15 +13,14 @@ export default function Hero() {
                 sm:text-5xl"
               >
                 <span className="line-yellow text-yellow-300 inline-block">
-                  Business-driven
+                  {props.headlineUnderline}
                 </span>
                 <br />
-                content workflows
+                  {props.headlineNoUnderline}
               </h1>
             </div>
             <p className="py-5">
-              Every business needs to be a content producer. Let Bloom
-              Collective show you how to do it right.
+              {props.text}
             </p>
             <div
               className="flex flex-col gap-5
@@ -32,18 +31,19 @@ export default function Hero() {
               bg-yellow-300
               text-black
               border-2 border-yellow-300
+              hover:bg-yellow-400
               transition duration-300 ease-in-out"
               >
-                Learn more
+                {props.buttonOne}
               </button>
               <button
                 className="px-5 py-3 w-full max-w-xxs
                 text-yellow-300
                 border-2 border-yellow-300
-                hover:bg-yellow-300 hover:text-black
+                hover:bg-yellow-400 hover:text-black
                 transition duration-300 ease-in-out"
               >
-                Watch video
+                {props.buttonTwo}
               </button>
             </div>
           </div>

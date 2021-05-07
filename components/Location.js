@@ -4,29 +4,26 @@ import _subheadline from "./layout/_subheadline";
 import _pageTitle from "./layout/_pageTitle";
 import _paragraph from "./layout/_paragraph";
 
-export default function Blank() {
+export default function Location(props) {
   return (
-    <section className="block blank">
+    <section className="location">
       <_wrapper>
         <div className="row grid gap-10 md:grid-cols-2 items-center">
           <div className="col max-w-md">
             <_headline>
-              We are located in {" "}
+              {props.headlineNoUnderline}{" "}
               <span className="inline-block text-yellow-300 line-yellow">
-                Jakarta, Indonesia.
+                {props.headlineUnderline}
               </span>
             </_headline>
             <_paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              {props.text}
             </_paragraph>
           </div>
           <div className="col">
             <img
               src="https://source.unsplash.com/random"
-              className="w-full h-full object-cover object-center"
+              className="w-full object-cover object-center"
             />
           </div>
         </div>
