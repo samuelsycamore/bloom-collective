@@ -3,7 +3,7 @@ import _subheadline from "./layout/_subheadline";
 
 export default function HeroA(props) {
   return (
-    <section className="block hero-a relative">
+    <section className="block hero relative">
       <_wrapper>
         <div className="row flex items-center h-calc pt-32 pb-10">
           <div className="col content relative z-10 w-full max-w-md text-white">

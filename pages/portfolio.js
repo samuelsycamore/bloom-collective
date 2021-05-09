@@ -1,4 +1,4 @@
-import PortfolioLayout from "../components/Portfolio";
+import PortfolioLayout from "../components/PortfolioLayout";
 import PortfolioItem from "../components/PortfolioItem";
 import Layout from "../components/layout/Layout";
 

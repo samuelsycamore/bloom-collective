@@ -4,13 +4,13 @@ import _subheadline from "./layout/_subheadline";
 import _pageTitle from "./layout/_pageTitle";
 import _paragraph from "./layout/_paragraph";
 
-export default function CardBox() {
+export default function CardBox(props) {
   return (
-    <section className="block card-box">
+    <section className="block">
       <_wrapper>
-        <div className="row">
-          <div className="col">
-            <span className="text">hello</span>
+        <div className="row card-box">
+          <div className="col flex justify-center items-center">
+            <img src={props.image} />
           </div>
         </div>
       </_wrapper>

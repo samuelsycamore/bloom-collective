@@ -5,7 +5,7 @@ export default function PortfolioItem(props) {
   return (
     <Link href="/">
       <div className="portfolio-item cursor-pointer">
-        <div className="imag">
+        <div className="image">
           <img
             src={props.image}
             className="object-cover object-center w-full h-72"

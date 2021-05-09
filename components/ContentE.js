@@ -8,7 +8,7 @@ export default function ContentE(props) {
   return (
     <section className="block content-e">
       <_wrapper>
-        <div className="row gap-10 grid md:grid-cols-2 py-10">
+        <div className="row gap-16 grid md:grid-cols-2 py-10">
           <div className="col image h-96">
             <img
               src={props.photo}
