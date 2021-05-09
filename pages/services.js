@@ -6,7 +6,7 @@ import Layout from "../components/layout/Layout";
 export default function services() {
   return (
     <Layout>
-      <HeroC headline="Our Services" subheader="What we do" />
+      <HeroC headline="Our Services" subheader="What we do" image="https://source.unsplash.com/random" />
       <ContentD
         title="Lorem ipsum dolor"
         paragraphOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

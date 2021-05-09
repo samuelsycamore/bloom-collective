@@ -1,9 +1,9 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
 
-export default function Hero( props ) {
+export default function HeroA(props) {
   return (
-    <section className="block hero relative">
+    <section className="block hero-a relative">
       <_wrapper>
         <div className="row flex items-center h-calc pt-32 pb-10">
           <div className="col content relative z-10 w-full max-w-md text-white">
@@ -16,12 +16,10 @@ export default function Hero( props ) {
                   {props.headlineUnderline}
                 </span>
                 <br />
-                  {props.headlineNoUnderline}
+                {props.headlineNoUnderline}
               </h1>
             </div>
-            <p className="py-5">
-              {props.text}
-            </p>
+            <p className="py-5">{props.text}</p>
             <div
               className="flex flex-col gap-5
               sm:flex-row"
@@ -55,7 +53,6 @@ export default function Hero( props ) {
             />
           </div>
         </div>
-       
       </_wrapper>
     </section>
   );

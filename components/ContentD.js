@@ -4,9 +4,9 @@ import _subheadline from "./layout/_subheadline";
 import _pageTitle from "./layout/_pageTitle";
 import _paragraph from "./layout/_paragraph";
 
-export default function SecondaryContentB(props) {
+export default function ContentD(props) {
   return (
-    <section className="SecondaryContentB">
+    <section className="block content-d">
       <_wrapper>
         <div className="row gap-10 grid md:grid-cols-2 py-2">
           <div className="col content">

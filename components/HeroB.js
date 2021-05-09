@@ -2,9 +2,9 @@ import _wrapper from "./layout/_wrapper";
 import _paragraph from "./layout/_paragraph";
 import _pageTitle from "./layout/_pageTitle";
 
-export default function SecondaryHeroA(props) {
+export default function HeroB(props) {
   return (
-    <section className="SecondaryHeroA relative">
+    <section className="block hero-b overflow-x-hidden">
       <_wrapper>
         <div className="row max-w-xl mx-auto pt-40 pb-10">
           <div className="col flex flex-col justify-end items-center">
@@ -18,7 +18,7 @@ export default function SecondaryHeroA(props) {
           </div>
         </div>
         <div className="row">
-          <div className="col absolute top-50 left-0 w-full h-full">
+          <div className="col full-width">
             <img
               className="object-cover object-center w-full h-half"
               src={props.photo}

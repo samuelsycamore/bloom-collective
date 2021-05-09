@@ -3,7 +3,7 @@ import _headline from "./layout/_headline";
 
 import _paragraph from "./layout/_paragraph";
 
-export default function Testimonials( props ) {
+export default function Testimonials(props) {
   return (
     <section className="block testimonials">
       <_wrapper>

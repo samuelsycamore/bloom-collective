@@ -1,9 +1,9 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
 
-export default function Clients( props ) {
+export default function Awards(props) {
   return (
-    <section className="block clients">
+    <section className="block awards">
       <_wrapper>
         <div className="row text-center py-10">
           <div className="col">
@@ -25,11 +25,15 @@ export default function Clients( props ) {
           </div>
           <div className="col flex flex-col justify-center">
             <img src="logo-summit.svg" />
-            <span className="font-bold text-center">2020 Summit Creative Award </span>
+            <span className="font-bold text-center">
+              2020 Summit Creative Award{" "}
+            </span>
           </div>
           <div className="col flex flex-col justify-center">
             <img src="logo-summit.svg" />
-            <span className="font-bold text-center">2020 Summit Creative Award </span>
+            <span className="font-bold text-center">
+              2020 Summit Creative Award{" "}
+            </span>
           </div>
           <div className="col flex flex-col justify-center">
             <img src="logo-marcom.svg" />

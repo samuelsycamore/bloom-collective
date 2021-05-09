@@ -4,9 +4,9 @@ import _subheadline from "./layout/_subheadline";
 import _pageTitle from "./layout/_pageTitle";
 import _paragraph from "./layout/_paragraph";
 
-export default function Services( props ) {
+export default function HeroC(props) {
   return (
-    <section className="Services">
+    <section className="block hero-c">
       <_wrapper>
         <div className="row pt-32 pb-10">
           <div className="col">
@@ -16,7 +16,7 @@ export default function Services( props ) {
         <div className="row">
           <div className="col">
             <img
-              src="https://source.unsplash.com/random"
+              src={props.image}
               className="w-full h-96 object-center object-cover"
             />
           </div>

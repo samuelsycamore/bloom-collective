@@ -2,20 +2,18 @@ import _wrapper from "./layout/_wrapper";
 import _headline from "./layout/_headline";
 import _paragraph from "./layout/_paragraph";
 
-export default function BodyContentB( props ) {
+export default function ContentB(props) {
   return (
-    <section className="block">
+    <section className="block content-b">
       <_wrapper>
-        <div className="row flex flex-wrap justify-center items-center">
+        <div className="row flex flex-wrap justify-center items-center lg:h-screen">
           <div className="col">
             <img className="w-96" src={props.image} />
           </div>
           <div className="col max-w-xl py-10">
             <img src={props.logo} className="py-5" />
             <_headline>{props.headline}</_headline>
-            <_paragraph>
-              {props.text}
-            </_paragraph>
+            <_paragraph>{props.text}</_paragraph>
             <button
               className="px-5 py-3 w-full max-w-xxs
                 text-gray-400

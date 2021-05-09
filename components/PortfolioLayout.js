@@ -5,7 +5,7 @@ import _paragraph from "./layout/_paragraph";
 
 export default function PortfolioLayout(props) {
   return (
-    <section className="block services pt-32 pb-10">
+    <section className="block portfolio-layout pt-32 pb-10">
       <_wrapper>
         <div className="row">
           <div className="col content py-10">

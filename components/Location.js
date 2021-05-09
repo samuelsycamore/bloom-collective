@@ -6,7 +6,7 @@ import _paragraph from "./layout/_paragraph";
 
 export default function Location(props) {
   return (
-    <section className="location">
+    <section className="block location">
       <_wrapper>
         <div className="row grid gap-10 md:grid-cols-2 items-center">
           <div className="col max-w-md">
@@ -16,9 +16,7 @@ export default function Location(props) {
                 {props.headlineUnderline}
               </span>
             </_headline>
-            <_paragraph>
-              {props.text}
-            </_paragraph>
+            <_paragraph>{props.text}</_paragraph>
           </div>
           <div className="col">
             <img

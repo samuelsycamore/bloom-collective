@@ -28,7 +28,7 @@ export default function index() {
         buttonText="Learn more"
       />
       <Testimonials headline="Some of our partners and clients." />
-      <Form mainPage />
+      <Form mainPage headlineNoUnderline="Tell us everything and " headlineUnderline="let's get to work" text="Please share your thoughts in the form below and we’ll be in touch. We’d love to hear from you." />
     </Layout>
   );
 }
