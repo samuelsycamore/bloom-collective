@@ -4,16 +4,29 @@ import ContentA from "../components/ContentA";
 import ContentB from "../components/ContentB";
 import Testimonials from "../components/Testimonials";
 import Form from "../components/Form";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import TestimonialItem from "../components/TestimonialItem";
 
 import Layout from "../components/layout/Layout";
 
 export default function index() {
   return (
     <Layout lightNav>
-      <HeroA headlineUnderline="Business-driven"
-      headlineNoUnderline="content workflows" text="Every business needs to be a content producer. Let Bloom
-      Collective show you how to do it right." buttonOne="Learn more" buttonTwo="Watch video" />
-      <Clients headline="Clients who trust us." logoOne="logo-breakthrough.svg" logoTwo="logo-dbs.svg" logoThree="logo-majid.svg" />
+      <HeroA
+        headlineUnderline="Business-driven"
+        headlineNoUnderline="content workflows"
+        text="Every business needs to be a content producer. Let Bloom
+      Collective show you how to do it right."
+        buttonOne="Learn more"
+        buttonTwo="Watch video"
+      />
+      <Clients
+        headline="Clients who trust us."
+        logoOne="logo-breakthrough.svg"
+        logoTwo="logo-dbs.svg"
+        logoThree="logo-majid.svg"
+      />
       <ContentA
         logo="logo-majid.svg"
         headline="Content During Crisis"
@@ -22,13 +35,44 @@ export default function index() {
       />
       <ContentB
         image="phone.svg"
-        logo="logo-breakthrough.svg" 
+        logo="logo-breakthrough.svg"
         headline="The Science of Social"
         text="The Breakthrough Prizes are awarded each year to groundbreaking ideas in the areas of Physics, Mathematics and Life Sciences. See how Bloom Collective designed a custom content workflow to achieve their communications goals."
         buttonText="Learn more"
       />
-      <Testimonials headline="Some of our partners and clients." />
-      <Form mainPage headlineNoUnderline="Tell us everything and " headlineUnderline="let's get to work" text="Please share your thoughts in the form below and we’ll be in touch. We’d love to hear from you." />
+      <Testimonials headline="Some of our partners and clients.">
+        <Carousel
+          showThumbs={false}
+          infiniteLoop={true}
+          showStatus={false}
+          showIndicators={false}
+        >
+          <TestimonialItem
+            text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
+            personPhoto="https://source.unsplash.com/random"
+            personName="Chris Young"
+            personTitle="Creative Director at YouTube"
+          />
+          <TestimonialItem
+            text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive.”"
+            personPhoto="https://source.unsplash.com/random"
+            personName="Chris Medium"
+            personTitle="Creative Director at YouTube"
+          />
+          <TestimonialItem
+            text="“In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
+            personPhoto="https://source.unsplash.com/random"
+            personName="Chris Old"
+            personTitle="Creative Director at YouTube"
+          />
+        </Carousel>
+      </Testimonials>
+      <Form
+        mainPage
+        headlineNoUnderline="Tell us everything and "
+        headlineUnderline="let's get to work"
+        text="Please share your thoughts in the form below and we’ll be in touch. We’d love to hear from you."
+      />
     </Layout>
   );
 }
