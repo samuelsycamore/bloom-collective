@@ -20,19 +20,15 @@ export default function Footer() {
               className="my-2"
             />
             <p>Business-driven content workflows</p>
-            <div className="socials flex gap-4 text-white">
-              <a href="#">
-                <img src="social-fb.svg" />
-              </a>
-              <a href="#">
-                <img src="social-ig.svg" />
-              </a>
-              <a href="#">
-                <img src="social-li.svg" />
-              </a>
-              <a href="#">
-                <img src="social-tw.svg" />
-              </a>
+            <div className="socials flex gap-4 py-4 text-white">
+
+                <img src="social-fb.svg" className="w-8 h-8" />
+
+                <img src="social-ig.svg" className="w-8 h-8" />
+
+                <img src="social-li.svg" className="w-8 h-8" />
+
+                <img src="social-tw.svg" className="w-8 h-8" />
             </div>
           </div>
           <div className="col max-w-32">
